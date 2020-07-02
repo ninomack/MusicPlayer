@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1366A7F24AE316300914E39 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1366A7E24AE316300914E39 /* MainTabBarController.swift */; };
 		E19E976224AC8618003E2F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E976124AC8618003E2F3F /* AppDelegate.swift */; };
 		E19E976424AC8618003E2F3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E976324AC8618003E2F3F /* SceneDelegate.swift */; };
 		E19E976624AC8618003E2F3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E976524AC8618003E2F3F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1366A7E24AE316300914E39 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		E19E975E24AC8618003E2F3F /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19E976124AC8618003E2F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E19E976324AC8618003E2F3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				E19E976A24AC861A003E2F3F /* Assets.xcassets */,
 				E19E976C24AC861A003E2F3F /* LaunchScreen.storyboard */,
 				E19E976F24AC861A003E2F3F /* Info.plist */,
+				E1366A7E24AE316300914E39 /* MainTabBarController.swift */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				E19E976624AC8618003E2F3F /* ViewController.swift in Sources */,
 				E19E976224AC8618003E2F3F /* AppDelegate.swift in Sources */,
+				E1366A7F24AE316300914E39 /* MainTabBarController.swift in Sources */,
 				E19E976424AC8618003E2F3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
